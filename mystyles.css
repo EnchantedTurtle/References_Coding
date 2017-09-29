@@ -1,0 +1,19 @@
+body {
+  background-image : url("http://eskipaper.com/images/dark-background-3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#text{
+  color: blue;
+}
+#MainHeader{
+  color: #92f442;
+  font-size: 100px;
+  text-align: center;
+}
+#underMain{
+  color: #59f441;
+  text-align: center;
+  margin-top: -5em;
+
+}
