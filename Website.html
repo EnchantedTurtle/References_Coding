@@ -5,7 +5,30 @@
     <link rel="stylesheet" href="mystyles.css">
   </head>
   <body>
+    <script src="script.js"></script>
     <h1 id="MainHeader">TURTLE</h1>
     <p id="underMain">C#, HTML, JAVASCRIPT, JAVA </p>
+
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event,'Github')">Github</button>
+        <button class="tablinks" onclick="openTab(event,'Aboutme')">About me</button>
+        <button class="tablinks" onclick="openTab(event,'Goodgames')">Good Games</button>
+    </div>
+
+    <div id="Github" class="tabcontent">
+        <h3>Github</h3>
+        <p>Here you can see my current Github Projects</p>
+    </div>
+
+    <div id="Aboutme" class="tabcontent">
+        <h3>About me</h3>
+        <p>Here you can read my whole life story</p>
+    </div>
+
+    <div id="Goodgames" class="tabcontent">
+        <h3>Good Games</h3>
+        <p>Some good Games im currently playing</p>
+    </div>
+
   </body>
 </html>
