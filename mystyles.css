@@ -1,5 +1,5 @@
 body {
-  background-image : url("http://eskipaper.com/images/dark-background-3.jpg");
+  background-image : url("http://45.55.183.15/wp-content/uploads/2016/01/Grey-Background-7.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -18,12 +18,12 @@ body {
 }
 div.tab {
   overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  border: 1px solid gray;
+  background-color: gray;
 }
 
 div.tab button{
-  background-color: inherit;
+  background-color: #92f442;
   float: left;
   border: none;
   outline: none;
@@ -37,7 +37,7 @@ div.tab button:hover {
 }
 
 div.tab button.active {
-  background-color: #ccc;
+  background-color: #497c0b;
 }
 
 .tabcontent {
